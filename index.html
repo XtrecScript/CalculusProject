@@ -1,4 +1,4 @@
-<div>Reconocimiento de tipos de figura</div>
+<div>Reconocimiento de tipos de figuras</div>
 <button type="button" onclick="init()">Iniciar</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
@@ -6,7 +6,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
 
-    const URL = "https://teachablemachine.withgoogle.com/models/VkSRk-2JE/";
+    const URL = "https://teachablemachine.withgoogle.com/models/Pik1I2IUH/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -23,7 +23,7 @@
         await webcam.play();
         window.requestAnimationFrame(loop);
 
-        
+
         document.getElementById("webcam-container").appendChild(webcam.canvas);
         labelContainer = document.getElementById("label-container");
         for (let i = 0; i < maxPredictions; i++) { // and class labels
