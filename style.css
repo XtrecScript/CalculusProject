@@ -1,0 +1,16 @@
+
+body{
+    background-color: tan;
+    font-family: Helvetica, sans-serif;
+}
+
+#titulo{
+    margin: 0px, auto;
+    border: 1px, red;
+}
+
+#boton{
+    background-color: cornflowerblue;
+    margin: 0px, auto;
+
+}
